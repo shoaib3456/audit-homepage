@@ -342,4 +342,8 @@ input[type=checkbox]{
     padding: 17px 20px;
     border: 1px solid #ebebeb;
 }
+.form-logo{
+    width: 100px;
+    margin-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
