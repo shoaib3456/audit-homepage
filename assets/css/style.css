@@ -27235,7 +27235,7 @@ ul.make-list li::before {
 
 /* line 208, ../sass/main.scss */
 header {
-    background-color:  #8982f7;
+    background-color:  #03020E;
     padding: 1.3rem 0;
 }
 
@@ -28219,7 +28219,7 @@ nav.mobile-items li a {
 
 /* line 861, ../sass/main.scss */
 footer {
-    background-color: #000;
+    background-color: #03020e;
     padding: 8rem 0 5rem 0;
 }
 
@@ -28696,4 +28696,10 @@ h3 {
 header ul li{
     display: flex;
     align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+.footer-content .logo{
+    width: 100px;
 }
