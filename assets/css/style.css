@@ -25874,7 +25874,7 @@ body a {
 
 /* line 43, ../sass/_theme.scss */
 body a:not([href]):not([tabindex]) {
-    color: #fff;
+    color: #000;
 }
 
 /* line 44, ../sass/_theme.scss */
@@ -26910,6 +26910,7 @@ body ul li {
     z-index: 1;
     -webkit-clip-path: inherit;
     clip-path: inherit;
+    display: none;
 }
 
 /* line 38, ../sass/_patterns-optional.scss */
@@ -26974,8 +26975,8 @@ main {
 /**Divisor Line Colors**/
 /* line 28, ../sass/main.scss */
 .light-color {
-    border-color: #fecb1c;
-    border-width: 1.4px;
+    border-color: #8982f7;
+    border-width: 2px;
     margin: 2rem 0;
     box-sizing: inherit;
 }
@@ -27234,7 +27235,7 @@ ul.make-list li::before {
 
 /* line 208, ../sass/main.scss */
 header {
-    background-color: #000;
+    background-color:  #8982f7;
     padding: 1.3rem 0;
 }
 
@@ -27272,7 +27273,7 @@ header ul li::after {
     content: "";
     width: 0%;
     height: 5px;
-    background-color: #fecb1c;
+    background-color: #cbb2e6;
     position: absolute;
     right: 0;
     bottom: -6px;
@@ -27543,7 +27544,7 @@ nav.mobile-items li a {
 
 /* line 421, ../sass/main.scss */
 .works {
-    background-color: #fecb1c;
+    background-color: #fff;
     position: relative;
     padding-bottom: 4rem;
 }
@@ -27982,7 +27983,7 @@ nav.mobile-items li a {
 
 /* line 718, ../sass/main.scss */
 .service {
-    background-image: url("../images/about-studio.jpg");
+    /* background-image: url("../images/about-studio.jpg"); */
     position: relative;
     padding-top: 15rem;
     min-height: 55rem;
@@ -28004,7 +28005,7 @@ nav.mobile-items li a {
     width: 100%;
     height: 100%;
     content: "";
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(10 10 16);
 }
 
 /* line 736, ../sass/main.scss */
@@ -28018,7 +28019,7 @@ nav.mobile-items li a {
     position: relative;
     padding-top: 2rem;
     padding-bottom: 4rem;
-    background-color: #fecb1c;
+    background-color: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -28103,7 +28104,7 @@ nav.mobile-items li a {
 .contact {
     position: relative;
     padding-bottom: 5rem;
-    background-color: #fecb1c;
+    background-color: #fff;
 }
 
 /* line 799, ../sass/main.scss */
@@ -28466,8 +28467,8 @@ ul {
     color: #02050a;
     border: none;
     border-radius: 2px;
-    background-color: #ffea00;
-    box-shadow: inset 0 -2px 0 #ffd200;
+    background-color: #cbb2e6;
+    box-shadow: inset 0 -2px 0 #cbb2e6;
 }
 
 .btn:hover {
@@ -28510,7 +28511,7 @@ h3 {
     height: 2px;
     content: '';
     vertical-align: middle;
-    background-color: #ffea00;
+    background-color: #cbb2e6;
     background-clip: content-box;
 }
 
@@ -28641,7 +28642,7 @@ h3 {
 .price-table__item_best {
     padding-top: 54px;
     padding-bottom: 44px;
-    border: 6px solid #ffea00;
+    border: 6px solid #cbb2e6;
 }
 
 .price-table__best {
@@ -28653,7 +28654,7 @@ h3 {
     left: 0;
     text-align: center;
     text-transform: uppercase;
-    color: #ffd200;
+    color: #cbb2e6;
 }
 
 .price-table__feature-list {
@@ -28686,7 +28687,7 @@ h3 {
     display: inline-block;
     width: 9px;
     height: 9px;
-    fill: #ffea00;
+    fill: #cbb2e6;
 }
 
 
