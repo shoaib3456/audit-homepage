@@ -336,5 +336,10 @@ input[type=checkbox]{
         padding: 50px 25px;
     }
 }
-
+.form-select-drop{
+    font-size: 14px; 
+    color: rgb(139, 139, 139);
+    padding: 17px 20px;
+    border: 1px solid #ebebeb;
+}
 /*# sourceMappingURL=style.css.map */
