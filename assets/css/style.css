@@ -27235,7 +27235,7 @@ ul.make-list li::before {
 
 /* line 208, ../sass/main.scss */
 header {
-    background-color:  #03020E;
+    background-color:  #8982f7;
     padding: 1.3rem 0;
 }
 
@@ -27616,7 +27616,7 @@ nav.mobile-items li a {
 
 /* line 464, ../sass/main.scss */
 .follow-us__social-links a {
-    background-color: #fff;
+    background-color: #CBB2E6;
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
@@ -27828,7 +27828,7 @@ nav.mobile-items li a {
 
 /* line 617, ../sass/main.scss */
 .about .team .team__member .team__ocupation {
-    color: #fecb1c;
+    color: #ffffff;
     font-style: italic;
 }
 
@@ -28181,6 +28181,7 @@ nav.mobile-items li a {
 /* line 845, ../sass/main.scss */
 .contact .contact__phone i {
     font-size: 4rem;
+    color: #8982F7;
 }
 
 /* line 846, ../sass/main.scss */
@@ -28203,6 +28204,7 @@ nav.mobile-items li a {
 /* line 853, ../sass/main.scss */
 .contact .contact__location i {
     font-size: 4rem;
+    color:#8982F7;
 }
 
 /* line 854, ../sass/main.scss */
@@ -28640,21 +28642,24 @@ h3 {
 
 /*! CSS Used from: https://drivingschool.wpmix.net/html/assets/styles/app.css */
 .price-table__item_best {
-    padding-top: 54px;
+    padding-top: 14px !important;
     padding-bottom: 44px;
     border: 6px solid #cbb2e6;
 }
 
 .price-table__best {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
-    position: absolute;
     top: 7px;
     right: 0;
     left: 0;
     text-align: center;
     text-transform: uppercase;
-    color: #cbb2e6;
+    /* background-color:#8982F7; */
+    color: #8982F7;
+    margin-bottom: 20px;
+    clip-path: polygon(0px 0px, 100% 0px, 97% 50%, 100% 100%, 0px 100%, 3% 50%);
+    
 }
 
 .price-table__feature-list {
