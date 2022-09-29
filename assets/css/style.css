@@ -26336,12 +26336,12 @@ body ul li {
 
 /* line 22, ../sass/_custom-buttons.scss */
 .btn-primary::after {
-    height: 0%;
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     background-color: #000;
     opacity: 0;
 }
@@ -28474,7 +28474,7 @@ ul {
 }
 
 .btn:hover {
-    background-color: #fff266;
+    /* background-color: #fff266; */
 }
 
 .btn:active {
